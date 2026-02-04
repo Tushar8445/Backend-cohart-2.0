@@ -20,10 +20,57 @@ main{
 }
 
 .card{
+  height:15rem;
+  width:15rem;
   padding: 1rem;
   background-color: #302f2f;
-  width:fit-content;
   border-radius:1rem;
+  border:1px solid whitesmoke;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
 }
+.card h4{
+  font-size:1.5rem;
+  text-align:center;
+  font-style: italic;
+}
+.card p{
+  font-size:1rem;
+  text-align:center;
+}
+.card .buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.card button{
+  padding:0.2rem 1rem;
+  border-radius:1rem;
+  border:none;
+  font-size:1rem;
+}
+
+
+form{
+  background-color: rgb(143, 35, 35);
+  width:100%;
+  padding:1rem;
+  display: flex;
+  gap:1rem;
+}
+form input,.create-note{
+  padding:0.5rem 1rem;
+  border-radius:0.5rem;
+  outline:none;
+  border:none;
+}
+button.create-note{
+  border:2px solid black;
+  font-weight:600;
+}
+button.create-note:active{
+  scale:0.95 ;
+}
+
 
 

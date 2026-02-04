@@ -1,0 +1,24 @@
+.update{
+    height:95vh;
+    width:97vw;
+    background-color: rgba(0, 3, 11, 0.2);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+
+.update .container{
+    height:200px; width:220px;
+    background-color: crimson;
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius:0.5rem;
+
+}
+.container input,button{
+    padding:0.4rem 0.6rem;
+}
